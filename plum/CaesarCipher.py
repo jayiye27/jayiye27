@@ -15,8 +15,10 @@ def encrypt(cleartext):
 
 
 while True:
-    print("Caesar Cipher")
+    print("Caesar Cipher TOOL")
     cleartext = input("cleartext: ")
     cleartext = cleartext.lower()
     print("Here you go:", encrypt(cleartext))
+    print("Hope you are satisfied with this program")
+    print("-------------")
 
