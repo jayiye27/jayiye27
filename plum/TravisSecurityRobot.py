@@ -18,5 +18,6 @@ while True:
         add_me = input("Would you like to be added to the system (yes/no)?: ").strip().lower()
         if add_me == "yes":
             known_users.append(name)
+            print("Great! I added you!")
         elif add_me == "no":
             print("No worries, see you around!")
