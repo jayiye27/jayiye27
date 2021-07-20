@@ -24,7 +24,7 @@ class Ball:
             self.yspeed = -self.yspeed
         if pos[2] >= WIDTH or pos[0] <= 0:
             self.xspeed = -self.xspeed
-colors = ['red', 'green', 'blue', 'purple', 'orange', 'yellow', 'turquoise', 'grey', 'cyan', 'magenta', 'skyblue', 'dodgerblue', 'gold', 'pink', 'violet', 'lightgreen', 'maroon', 'darkred']
+colors = ['red', 'green', 'blue', 'purple', 'orange', 'yellow', 'turquoise', 'grey', 'cyan', 'magenta', 'skyblue', 'dodgerblue', 'gold', 'pink', 'violet', 'lightgreen', 'maroon', 'lightpink']
 balls = []
 for i in range(175):
     balls.append(Ball(random.choice(colors),random.randrange(50, 100)))
