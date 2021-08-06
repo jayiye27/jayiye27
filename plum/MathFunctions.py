@@ -1,9 +1,7 @@
 import math
 
-x = 2.9
-
 #RoundNumber
-print(round(x))
+print(round(7.987))
 
 #AbsoluteFunction
 print(abs(-2.9))
