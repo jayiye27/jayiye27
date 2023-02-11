@@ -1,5 +1,5 @@
 # pick empty square
-# try all numbers
+# try all numbers (for loop)
 # find one that works
 # repeat
 # backtrack (when solution cannot be completed
@@ -15,5 +15,21 @@ board = [
     [1,2,0,0,0,7,4,0,0],
     [0,4,9,2,0,6,0,0,7]
 ]
-#step 1
+
+#print out board
+
+def print_board(brd) :
+    for i in range(len(brd)):
+        if i % 3 and i != 0:
+            print("- - - - - - - - - - - - - ")
+        for j in range(len(brd[0])):
+            if j % 3 == 0 and j != 0:
+                print(" | ", end="")
+
+                if j == 8:
+                    print(brd[i][j])
+                else:
+                    print(str(brd[i][j]) + " ")
+
+
 
